@@ -1,0 +1,75 @@
+.wfitness-carousel {
+    position: relative;
+    margin: 0 auto;
+    padding: 2em 0.4em;
+}
+
+.testimonial-carousel-items {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.testimonial-carousel-item {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 2em;
+    border-radius: .4em;
+    height: 100%;
+    text-align: center;
+}
+
+.review-content {
+    font-size: 1em;
+    font-style: italic;
+}
+
+.review-name {
+    font-size: 0.9em;
+}
+
+.review-img img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.wfitness-slick .testimonial-carousel-items .slick-prev:before,
+.wfitness-slick .testimonial-carousel-items .slick-next:before {
+    color: #ffffff;
+}
+
+/* Media Queries */
+
+/* Small & Mobile Device Upwards */
+@media (min-width: 544px) {}
+
+/* Tablet Upwards */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Desktop Small */
+@media only screen and (min-width: 992px) {
+.wfitness-carousel {
+    padding: 2em;
+}
+}
+
+/* Desktop Large */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/* Tablet */
+@media (max-width: 921px) {
+
+
+/* Mobile & Tablet */
+@media only screen and (max-width: 768px) {}
+
+/* Mobile only */
+@media only screen and (max-width: 544px) {
+
+}

@@ -1,0 +1,106 @@
+/* Slider */
+.wfitness-slick .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.wfitness-slick .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.wfitness-slick .slick-list:focus {
+    outline: none;
+}
+
+.wfitness-slick .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.wfitness-slick .slick-slider .slick-track,
+.wfitness-slick .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.wfitness-slick .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wfitness-slick .slick-track:before,
+.wfitness-slick .slick-track:after {
+    display: table;
+    content: '';
+}
+
+.wfitness-slick .slick-track:after {
+    clear: both;
+}
+
+.wfitness-slick .slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.wfitness-slick .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    margin: 0 0.8em;
+}
+
+[dir='rtl'] .wfitness-slick .slick-slide {
+    float: right;
+}
+
+.wfitness-slick .slick-slide img {
+    display: block;
+}
+
+.wfitness-slick .slick-slide .slick-loading img {
+    display: none;
+}
+
+.wfitness-slick .slick-slide .dragging img {
+    pointer-events: none;
+}
+
+.wfitness-slick .slick-initialized .slick-slide {
+    display: block;
+}
+
+.wfitness-slick .slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.wfitness-slick .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.wfitness-slick .slick-arrow.slick-hidden {
+    display: none;
+}

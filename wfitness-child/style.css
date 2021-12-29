@@ -1,0 +1,193 @@
+/**
+Theme Name: W Fitness Child
+Author: Raindrop
+Author URI: https://www.raindrop-digital.co.uk/
+Description: Lightweight theme based on WP Astra.
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: w-fitness-child
+Template: astra
+*/
+
+/* Menu */
+.menu-personal-training > .menu-link {
+    color: #430098 !important;
+}
+
+/* Footer */
+.footer__title-promo {
+    font-family: "Wiesbaden Swing";
+    font-weight: 400;
+    line-height: 0.70455em;
+    letter-spacing: 0px;
+    font-style: normal;
+    font-size: 4em;
+    margin: 0px;
+}
+
+/* Home Page Hero Elements */
+.hero_img {
+    min-height: 680px;
+}
+
+.hero_img-small {
+    min-height: 340px;
+}
+
+.hero-page-banner {
+    padding-top: 8em !important;
+    padding-bottom: 8em !important;
+}
+
+.col-bg-image {
+    min-height: 480px;
+}
+
+/* Newsletter Elements */
+.col-email-img {
+    min-height: 480px;
+}
+
+/* Elements */
+.b-shadow {
+    box-shadow: 0px 32px 54px 0px rgb(119 119 119 / 9%)
+}
+
+.body__price {
+    text-align: center;
+    color: #00c1de;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+p.body__price {
+    margin-bottom: 8px !important;
+}
+
+.body__price-month {
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+}
+
+/* All Access Pricing Page */
+.section__discount-label {
+    font-size: 18px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: #00aeef!important;
+}
+
+/* Gutenberg Elements */
+.btn__white .wp-block-button__link {
+    border-color: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+.btn__white .wp-block-button__link:hover {
+    border-color: #00c1de !important;
+    background-color: #00c1de !important;
+    color: #ffffff !important;
+}
+
+.img_icon img {
+    max-height: 145px;
+    width: auto;
+}
+
+.uagb-tm-img-src {
+    border-radius: 8px;
+}
+
+/* login Form */
+.custom-login #loginform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 32px;
+    border: 1px solid #f4f6f8;
+}
+
+.custom-login #loginform .login-username, .custom-login #loginform .login-password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+/* Media Queries */
+
+/* Small & Mobile Device Upwards */
+@media (min-width: 544px) {
+
+}
+
+/* Tablet Upwards */
+@media (min-width: 768px) {
+    /* Newsletter Elements */
+    .col-email-img {
+        min-height: 760px;
+    }
+}
+
+/* Desktop Small */
+@media (min-width: 992px) {
+    /* Newsletter Elements */
+    .col-email-img {
+        min-height: 992px;
+    }
+
+    .col-bg-image {
+        min-height: 600px;
+    }
+
+    /* Elements */
+    .hero-page-banner {
+        padding-top: 12em !important;
+        padding-bottom: 12em !important;
+    }
+}
+
+/* Desktop Large */
+@media (min-width: 1200px) {
+    /* Newsletter Elements */
+    .col-email-img {
+        min-height: 1080px;
+    }
+}
+
+/* Media Screens Max Width */
+
+/* Tablet */
+@media (max-width: 921px) {
+
+}
+
+/* Mobile & Tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Mobile only */
+@media (max-width: 544px) {
+.footer__promo-wrapper, .footer__about-wrapper, .footer__nav-wrapper, .footer__title-promo, .footer__contact-form {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footer__nav-col {
+    margin-bottom: 24px;
+    padding: 0px;
+    width: 50%;
+}
+}
